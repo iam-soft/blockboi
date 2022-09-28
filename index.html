@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>blockboi</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li><a class="navbar-brand" href="#"><img class="blockboi-logo" src="images/blockboilogo.png" alt="blockboi-logo"></a></li>
+        <li class="searchbar">
+          <input type="searchbar" name="" size="67" placeholder="Search all categories">
+          <button type="button" name="search" class="btn btn-dark">Search</button>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img class="navbar-icon" src="images/user-outline.png" alt="user-logo"> Account
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><button type="button" class="btn btn-dark">SIGN IN</button></a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#"><img class="navbar-icon" src="images/user.png" alt="user-logo"> My Account</a></li>
+            <li><a class="dropdown-item" href="#"><img class="navbar-icon" src="images/shopping-bag.png" alt="user-logo"> Orders</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#"><img class="navbar-icon" src="images/shopping-cart.png" alt="shopping-cart"> Cart</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><img class="navbar-icon" src="images/wishlist.png" alt="wishlist-logo"> Wishlist</a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <section id="first-section">
+    <div class="catalogue card">
+      <div class="card-header">
+        <img class="navbar-icon" src="images/categories-icon.png" alt=""> Categories
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item border-0"> <a class="catalogue-text" href="#"> <img class="catalogue-icon" src="images/hoodie.png" alt=""> Hoodies</a>
+        </li>
+        <li class="list-group-item border-0"> <a class="catalogue-text" href="#"><img class="catalogue-icon" src="images/sweatshirt.png" alt=""> Sweatshirts</a>
+        </li>
+        <li class="list-group-item border-0"> <a class="catalogue-text" href="#"><img class="catalogue-icon" src="images/jacket.png" alt=""> Jackets</a>
+        </li>
+        <li class="list-group-item border-0"> <a class="catalogue-text" href="#"><img class="catalogue-icon" src="images/traditional.png" alt=""> Traditional</a>
+        </li>
+        <li class="list-group-item border-0"> <a class="catalogue-text" href="#"><img class="catalogue-icon" src="images/shirt.png" alt=""> Shirts</a>
+        </li>
+        <li class="list-group-item border-0"> <a class="catalogue-text" href="#"><img class="catalogue-icon" src="images/trouser.png" alt=""> Pants and Joggers</a>
+        </li>
+        <li class="list-group-item border-0"> <a class="catalogue-text" href="#"><img class="catalogue-icon" src="images/tote-icon.png" alt=""> Totes</a>
+        </li>
+        <li class="list-group-item"> <a class="catalogue-text" href="#"><img class="catalogue-icon" src="images/accessories.png" alt=""> Accessories</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="images/boi-display.png" class="d-block w-100" alt="display-card" style="border-radius: 1rem;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/discount-display.png" class="d-block w-100" alt="discount-card" style="border-radius: 1rem;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/woman-sweatshirt.png" class="d-block w-100" alt="woman-sweatshirt" style="height: 370px; border-radius: 1rem;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/femalemodel.jpg" class="d-block w-100" alt="female-model" style="height: 370px; border-radius: 1rem;">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/malemodel.jpg" class="d-block w-100" alt="male-model" style="height: 370px; border-radius: 1rem;">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="catalogue-right card" style="height: 55vh;">
+      <img src="images/adire-one.jpg" class="card-img-top" alt="adire-attire" style="height: 26vh;">
+      <div class="card-body">
+        <h5 class="card-title">Adire Jacket</h5>
+        <p class="card-text">Get styled up in our printed adire material.
+        <p><strong>₦15,000 </strong> <span class="old-price"> ₦25,000</span></p>
+        </p>
+        <a href="#" class="btn btn-dark btn-sm">BUY NOW</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="second-section">
+    <div class="second-section">
+      <hr>
+      <div class="top-selling">
+        <h4>Top Selling Items</h4>
+      </div>
+      <hr>
+    </div>
+
+    <div class="container-fluid col col-sm-12">
+      <div class="item-display">
+        <a href="#"><img src="images/blackhoodie.jpg" alt="" style="height: 150px; width: 195px;">
+          <h6>ESSENTIAL Hoodies Men</h6>
+          <p><strong>₦10,000</strong></p>
+          <span class="old-price"> ₦15,000</span>
+        </a>
+      </div>
+      <div class="item-display">
+        <a href="#"><img src="images/white-sweatshirt.jpg" alt="" style="height: 150px; width: 195px;">
+          <h6>Sweatshirt</h6>
+          <p><strong>₦10,000</strong></p>
+          <span class="old-price"> ₦15,000</span>
+        </a>
+      </div>
+      <div class="item-display">
+        <a href="#"><img src="images/malemodel.jpg" alt="" style="height: 150px; width: 195px;">
+          <h6>ESSENTIAL Hoodies Men</h6>
+          <p><strong>₦10,000</strong></p>
+          <span class="old-price"> ₦15,000</span>
+        </a>
+      </div>
+      <div class="item-display">
+        <a href="#"><img src="images/woman-sweatshirt.png" alt="" style="height: 150px; width: 195px;">
+          <h6>Sweatshirt Unisex</h6>
+          <p><strong>₦10,000</strong></p>
+          <span class="old-price"> ₦15,000</span>
+        </a>
+      </div>
+      <div class="item-display">
+        <a href="#"><img src="images/femalemodel.jpg" alt="" style="height: 150px; width: 195px;">
+          <h6>Hoodies Unisex</h6>
+          <p><strong>₦10,000</strong></p>
+          <span class="old-price"> ₦15,000</span>
+        </a>
+      </div>
+      <div class="item-display">
+        <a href="#"><img src="images/blue-tote.jpg" alt="" style="height: 150px; width: 195px;">
+          <h6>Totebag</h6>
+          <p><strong>₦6,000</strong></p>
+          <span class="old-price"> ₦10,000</span>
+        </a>
+      </div>
+      <div class="item-display">
+        <a href="#"><img src="images/model-tote.jpg" alt="" style="height: 150px; width: 195px;">
+          <h6>Totebag</h6>
+          <p><strong>₦6,000</strong></p>
+          <span class="old-price"> ₦10,000</span>
+        </a>
+      </div>
+      <div class="item-display">
+        <a href="#"><img src="images/black-tote.jpg" alt="" style="height: 150px; width: 195px;">
+          <h6>Totebag</h6>
+          <p><strong>₦6,000</strong></p>
+          <span class="old-price"> ₦10,000</span>
+        </a>
+      </div>
+      <div class="item-display">
+        <a href="#"><img src="images/adire-jumper.jpg" alt="" style="height: 150px; width: 195px;">
+          <h6>Jumper- Adire printed</h6>
+          <p><strong>₦18,000</strong></p>
+          <span class="old-price"> ₦25,000</span>
+        </a>
+      </div>
+      <div class="item-display">
+        <a href="#"><img src="images/blue-hoodie.jpg" alt="" style="height: 150px; width: 195px;">
+          <h6>ESSENTIAL Hoodies Men</h6>
+          <p><strong>₦10,000</strong></p>
+          <span class="old-price"> ₦15,000</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="form-section">
+    <img class="bb-head" src="images/blockboihead.png" alt="">
+    <div class="page-links">
+      <ul>
+        <li> <a href="#">About Us</a>
+        </li>
+        <li>
+          <a href="#">Delivery Options</a>
+        </li>
+        <li>
+          <a href="#">Customer Service</a>
+        </li>
+        <li>
+          <a href="#">Help Center</a>
+        </li>
+      </ul>
+    </div>
+    <div class="social-connect">
+      <h6>Stay Connected</h6>
+      <a href="#">
+        <img class="social-icon" src="images/instagram.png" alt="">
+      </a>
+      <a href="#">
+        <img class="social-icon" src="images/facebook.png" alt="">
+      </a>
+      <a href="#">
+        <img class="social-icon" src="images/twitter-sign.png" alt="">
+      </a>
+    </div>
+
+
+    <div class="row form-attributes">
+      <h6>Kindly drop your feedback and review here</h6>
+      <div class="col">
+        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email">
+      </div> <br>
+      <div class="col">
+        <textarea name="name" rows="6" cols="80" class="form-control" placeholder="Enter your text here" aria-label="Text area" style="resize: none;"></textarea>
+      </div>
+      <div class="col-12" style="text-align:right;">
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </div>
+    </div>
+
+  </section>
+
+
+</body>
+
+</html>
